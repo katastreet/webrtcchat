@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+  <title>Realtime communication with WebRTC</title>
+
+  <link rel="stylesheet" href="/css/main.css" />
+
+</head>
+
+<body>
+
+  <h1>Realtime chat communication with WebRTC</h1>
+
+
+
+  <textarea id="dataChannelSend"
+      placeholder="Press Start, enter some text, then press Send. height"></textarea>
+      <div id="buttons">
+        <button id="sendMessage">Send</button>
+      </div>
+<textarea  rows="80" cols="50"id="dataChannelReceive"></textarea>
+
+
+
+
+
+  <script src="/socket.io/socket.io.js"></script>
+  <script src="js/lib/adapter.js"></script>
+  <script src="js/main.js"></script>
+
+</body>
+
+</html>
